@@ -9,8 +9,7 @@
   },
   "scripts": {
     "lint": "standard --verbose | snazzy",
-    "precommit": "npm run lint && npm test",
-    "test": "NODE_ENV=production jest"
+    "test": "jest"
   },
   "keywords": [
     "react-native",
@@ -21,8 +20,9 @@
   "author": "Thiago Porto",
   "license": "MIT",
   "dependencies": {
-    "react": ">=15.4.1",
-    "react-native": ">=0.38.0"
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
